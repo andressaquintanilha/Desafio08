@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
+nav ul li{
+   list-style: none;
+}
+
+header, footer{
+  background-color: #129799;
+}
+
+main{
+  background-color: #FFA185;
+}
+
+.header-nav{
+  width: 100%;
+  display: flex;
+  margin: 0vh;
+  padding: 2vh;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+}
+
+.img-pointer{
+  width: 3vh;
+  height: 3vh;
+  margin: 0 0 0 45vh;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.img-title{
+  height: 45.57vh;
+  width: 85.79vh;
+}
+
+h2{
+  font-size: 3em;
+  margin: 0 1.7em;
+  padding-top: 1.2em;
+}
+
+.paragraph-main{
+  color: #000000;
+  margin: 1em 2em 3em 3.2em;
+  font-size: 1.5em;
+}
+
+.main-imagens{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgs{
+  height: 46vh;
+  width: 90vh;
+  margin: 1vh;
+  top: 8.9vh;
+  border-radius: 0px;
+}
+
+.veja-mais{
+  font-weight: 1000;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 3em;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  padding: 5vh;
+}
+
+.footer-logos{
+  display: flex;
+  width: 30vh;
+  justify-content: space-around;
+}
+
+.footer-nav{
+  width: 100vh;
+  margin-left: 60vh;
+}
+
+.footer-nav-li{
+  display: flex;
+  justify-content: right;
+  justify-content: space-evenly;
+}
